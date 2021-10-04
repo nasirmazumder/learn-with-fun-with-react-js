@@ -7,9 +7,17 @@
     background-color: orange;
     
 }
+
+.navTitle{
+    font-size: 35px;
+    font-weight: bolder;
+    color: goldenrod;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .me-4{
-    color: white;
+    color: rgb(95, 2, 2);
     padding: 5px;
     text-decoration: none;
     font-weight: bolder;
+    font-size: 21px;
 }

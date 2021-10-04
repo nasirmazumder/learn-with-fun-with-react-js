@@ -30,7 +30,7 @@ const Header = () => {
             <div>
 
                 <Navbar bg="primary" expand="lg" className="container" text-dark me-5>
-                    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                    <Navbar.Brand href="#" className="navTitle">Learn With Fun</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav className="p-3 me-5 navLink"
@@ -60,7 +60,9 @@ const Header = () => {
                 <Switch>
                     <Route exact path="/home">
 
-                        <Home></Home>
+                        <Home>
+                            
+                        </Home>
                     </Route>
                     <Route exact path="/about">
                         <About></About>
