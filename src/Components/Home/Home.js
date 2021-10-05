@@ -3,12 +3,24 @@ import React, { useEffect, useState } from 'react'
 import { Col, Row, Button } from 'react-bootstrap';
 import HomeData from './HomeData';
 import "./Home.css"
+import User from '../Users/User';
 const Home = () => {
     const [courses, setCourses] = useState([])
+
+    const [users, setUsers] = useState([])
+
     useEffect(() => {
         fetch('./data.json')
             .then(res => res.json())
             .then(data => setCourses(data))
+
+    }, [])
+
+    useEffect(() => {
+        fetch('./user.json')
+            .then(res => res.json())
+            .then(data => setUsers(data))
+
     }, [])
     return (
         <div>
@@ -49,8 +61,17 @@ const Home = () => {
                     <h1 className="instructors-heading">Our Honorable Instructor</h1>
                     <h5>Whether you’re looking to start a new career or change your current one, Professional Certificates on Coursera help you become job ready. Learn at your own pace from top companies and universities, apply your new skills to hands-on projects that showcase your expertise to potential employers, and earn a career credential to kickstart your new career.</h5>
                 </div>
+                <div className="row">
+                    {
+                        users.map(useer => <User
+                            key={useer.name}
+                            useer={useer}
+                        ></User>)
+                    }
+                </div>
             </section>
-        </div>
+
+        </div >
     );
 };
 
