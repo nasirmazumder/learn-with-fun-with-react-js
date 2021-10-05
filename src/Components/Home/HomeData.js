@@ -1,7 +1,7 @@
 // import Button from '@restart/ui/esm/Button';
 
 import React from 'react';
-import { Card, CardGroup, Col, Row, Button } from 'react-bootstrap';
+import { Card, Col, Button } from 'react-bootstrap';
 import Rating from 'react-rating';
 
 
@@ -15,7 +15,7 @@ const HomeData = (props) => {
 
 
                 <Col>
-                    <Card>
+                    <Card className="course-card">
                         <Card.Img variant="top" src={imgUrl} />
                         <Card.Body>
                             <h3 className="course-title">{title}</h3>

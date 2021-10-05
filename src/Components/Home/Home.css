@@ -12,6 +12,13 @@
     border-radius: 10px;
     box-shadow: 10px 10px 20px 03px gray;
 }
+.course-card{
+    box-shadow:10px 10px 20px rgba(0,0,0,0.2) ;
+    transition: 1s;
+}
+.course-card:hover{
+    transform: scale(1.05);
+}
 .course-heading{
     text-align: center;
     margin-top: 50px;
@@ -34,3 +41,18 @@
     color: #0D6EFD;
     margin-top: 50px;
 }
+.teacher-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.teacher-card{
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin: 10px;
+    transition: 1s;
+}
+.teacher-card:hover{
+transform: scale(1.05);
+}
+

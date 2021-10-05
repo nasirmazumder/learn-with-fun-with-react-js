@@ -1,9 +1,12 @@
 import React from 'react';
-
+import './Courses.css'
+import firstImg from '../../img/our-services (2).jpg'
 const Courses = () => {
     return (
         <div>
-            <h1>Welcome to my Courses section</h1>
+            <div className="container w-100">
+                <img src={firstImg} alt="" id='service-img'/>
+            </div>
         </div>
     );
 };

@@ -1,24 +1,32 @@
 import React from 'react';
-import { Col, Image, Row } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
+import Rating from 'react-rating';
+
 
 const User = (props) => {
     console.log(props.useer.name)
-    const { name, qualifiction, imgUrl } = props.useer;
+    const { name, qualifiction, imgUrl, students, rating } = props.useer;
     return (
         <div>
+            <Col>
+                <Card className="teacher-card">
+                    <div >
+                        <Card.Img variant="top" src={imgUrl} className='teacher-img' />
+                    </div>
+                    <Card.Body>
+                        <h3 >{name}</h3>
+                        <h5>{qualifiction}</h5>
+                        <Rating
+                            initialRating={rating}
+                            emptySymbol="far fa-star empty-field"
+                            fullSymbol="fas fa-star filled"
+                            readonly /> <span>{rating}</span>
+                        <h4 >Students:{students}</h4>
 
-            {/* <Col xs={6} md={4}> */}
-            <div className="row">
-                <div className="cols col-lg-4">
-                    <Image src={imgUrl} className="img-ins" />
-                </div>
-                <div className="cols col-lg-8">
+                    </Card.Body>
+                </Card>
+            </Col>
 
-                    <h4>{name}</h4>
-                    <h5>{qualifiction}</h5>
-                </div>
-            </div>
-            {/* </Col> */}
 
         </div>
     );

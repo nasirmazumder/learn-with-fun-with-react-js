@@ -2,16 +2,22 @@
     {
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlYkQUZfZv-4z7_2X8gRsOZ5w8B2TVURQwKg&usqp=CAU",
         "name": "Mohammed Ashraf PB",
-        "qualifiction": "Masters of Web developer and Machine Learning"
+        "qualifiction": "Masters of Web developer and Machine Learning",
+        "rating": 4,
+        "students": 3000
     },
     {
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXleaWljbyOXW4Uop1xozTpQsyU3p5XK3xfg&usqp=CAU",
         "name": "Stephen  Cooper",
-        "qualifiction": "Professor of English Grammer and Literature"
+        "qualifiction": "Professor of English Grammer and Literature",
+        "rating": 4,
+        "students": 3500
     },
     {
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQna4LIiDH3nuzIZendGkIJpbEq1xGEHr0h6Q&usqp=CAU",
         "name": "Michael Worku Garyl",
-        "qualifiction": " Full Stack web Trainer"
+        "qualifiction": " Full Stack web Trainer",
+        "rating": 4,
+        "students": 2100
     }
 ]

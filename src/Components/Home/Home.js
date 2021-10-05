@@ -61,15 +61,16 @@ const Home = () => {
                     <h1 className="instructors-heading">Our Honorable Instructor</h1>
                     <h5>Whether you’re looking to start a new career or change your current one, Professional Certificates on Coursera help you become job ready. Learn at your own pace from top companies and universities, apply your new skills to hands-on projects that showcase your expertise to potential employers, and earn a career credential to kickstart your new career.</h5>
                 </div>
-                <div className="row">
+                <Row xs={1} md={2} lg={3} className="g-2 card-container mt-5">
                     {
                         users.map(useer => <User
                             key={useer.name}
                             useer={useer}
                         ></User>)
                     }
-                </div>
+                </Row>
             </section>
+
 
         </div >
     );
