@@ -1,18 +1,21 @@
-import React from 'react';
+
 import './App.css';
-import bgImg from '../src/computerPic.jpg'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header/Header';
-import Home from './Components/Home/Home';
 
 
-function App() {
+
+
+function App(props) {
+
   return (
 
-    <div styles={{ backgroundImage: `url(${bgImg})` }}>
-      <Header></Header>
+    <div>
 
-
+      <div>
+        <Header></Header>
+      </div>
 
     </div>
   );

@@ -5,7 +5,7 @@
         "title": "Spoken English Course for Beginers",
         "subTitle": "Learn with good environment and show your Talent",
         "rating": 4.5,
-        "descriptin": "Our writing assistant supports clean writing with suggestions that go beyond grammar. Check grammatical errors instantly to enhance your writing and avoid plagiarism. Easily Improve Any Text. Find and Add Sources Fast.",
+        "description": "Our writing assistant supports clean writing with suggestions that go beyond grammar. Check grammatical errors instantly to enhance your writing and avoid plagiarism. Easily Improve Any Text. Find and Add Sources Fast.",
         "fees": 200
     },
     {
@@ -14,7 +14,7 @@
         "title": "Full Stack Web Development",
         "subTitle": "To Acheived something and learn deep in web development",
         "rating": 4,
-        "descriptin": "Be A Part of One of The Most Lucrative & Fast-Growing Career Paths. Enroll Now. Structured Learning Path Recommended by Leading Industry Experts to Ensure your...",
+        "description": "Be A Part of One of The Most Lucrative & Fast-Growing Career Paths. Enroll Now. Structured Learning Path Recommended by Leading Industry Experts to Ensure your...",
         "fees": 250
     },
     {
@@ -23,7 +23,7 @@
         "title": "Learn Phython Programming MasterLavel",
         "subTitle": "This Python For Beginners Course Teaches You The Python Language Fast. ",
         "rating": 5,
-        "descriptin": "Have a fundamental understanding of the Python programming language.Have the skills and understanding of Python to confidently apply for Python programming jobs.",
+        "description": "Have a fundamental understanding of the Python programming language.Have the skills and understanding of Python to confidently apply for Python programming jobs.",
         "fees": 350
     },
     {
@@ -32,7 +32,7 @@
         "title": "Learn Ms Exel basic to Pro",
         "subTitle": "Excel with this A-Z Microsoft Excel Course. Microsoft Excel 2018, 2019, 2020,",
         "rating": 5,
-        "descriptin": "Find the right instructor for you. Choose from many topics, skill levels, and languages.Build a solid understanding on the Basics of Microsoft Excel",
+        "description": "Find the right instructor for you. Choose from many topics, skill levels, and languages.Build a solid understanding on the Basics of Microsoft Excel",
         "fees": 180
     }
 ]

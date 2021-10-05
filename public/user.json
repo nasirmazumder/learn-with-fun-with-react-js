@@ -1,0 +1,17 @@
+[
+    {
+        "imgUrl": "https://image.shutterstock.com/image-photo/portrait-young-teacher-near-whiteboard-260nw-1656704701.jpg",
+        "name": "Mohammed Ashraf PB",
+        "qualifiction": "Masters of Web developer and Machine Learning"
+    },
+    {
+        "imgUrl": "https://thumbs.dreamstime.com/b/man-professsor-teacher-teaching-24405330.jpg",
+        "name": "Stephen jobs Hooker",
+        "qualifiction": "Professor of English Grammer and Literature"
+    },
+    {
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQna4LIiDH3nuzIZendGkIJpbEq1xGEHr0h6Q&usqp=CAU",
+        "name": "Michael Worku Garyl",
+        "qualifiction": " Full Stack web Trainer"
+    }
+]
