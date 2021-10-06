@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import './Courses.css'
 import firstImg from '../../img/our-services (2).jpg'
+import ShowCourses from './ShowCourses';
+import { Row } from 'react-bootstrap';
 const Courses = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
@@ -10,13 +12,18 @@ const Courses = () => {
     }, [])
 
     return (
-        <div>
-            <div className="container w-100">
+        <div className="container">
+            <div className=" w-100">
                 <img src={firstImg} alt="" id='service-img' />
             </div>
-            {
-                services.map(service => console.log(service))
-            }
+            <Row xs={1} md={2} lg={3} className="g-2 card-container mt-5">
+                {
+                    services.map(service => <ShowCourses
+                        key={service.title}
+                        service={service}
+                    ></ShowCourses>)
+                }
+            </Row>
         </div>
     );
 };

@@ -4,12 +4,13 @@ import { Form, FormControl, Nav, Navbar, } from 'react-bootstrap';
 import './Header.css'
 
 import {
-    BrowserRouter as Router, Switch, Route, Link, NavLink
+    BrowserRouter as Router, Switch, Route, NavLink
 } from "react-router-dom";
 import About from '../About/About';
 import Courses from '../Courses/Courses';
 import Home from '../Home/Home';
 import NotFound from '../NotFound';
+import Review from '../Review/Review';
 
 
 const Header = () => {
@@ -61,7 +62,7 @@ const Header = () => {
                     <Route exact path="/home">
 
                         <Home>
-                            
+
                         </Home>
                     </Route>
                     <Route exact path="/about">
@@ -69,6 +70,9 @@ const Header = () => {
                     </Route>
                     <Route exact path="/courses">
                         <Courses></Courses>
+                    </Route>
+                    <Route exact path="/review">
+                        <Review></Review>
                     </Route>
                     <Route exact path="*">
                         <NotFound></NotFound>

@@ -1,17 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { Card, Col } from 'react-bootstrap';
 
-const ShowUser = () => {
-    const [services, setServices] = useState([])
-    useEffect(() => {
-        fetch('./service.json')
-            .then(res => res.json())
-            .then(data => console.log(data))
-    }, [])
+const ShowCourses = (props) => {
+    console.log(props.service.title)
+    const { title, imgUrl } = props.service;
     return (
         <div>
-
+            <Col>
+                <Card className="service-card">
+                    <div >
+                        <Card.Img variant="top" src={imgUrl} className='service-img' />
+                    </div>
+                    <Card.Body>
+                        <h3 >{title}</h3>
+                    </Card.Body>
+                </Card>
+            </Col>
         </div>
     );
 };
 
-export default ShowUser;
+export default ShowCourses;
