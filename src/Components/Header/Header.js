@@ -59,6 +59,10 @@ const Header = () => {
             renders the first one that matches the current URL. */}
             <div>
                 <Switch>
+                    <Route exact path="/">
+
+                        <Home></Home>
+                    </Route>
                     <Route exact path="/home">
 
                         <Home>
